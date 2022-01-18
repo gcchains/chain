@@ -1,0 +1,17 @@
+admission
+accounts/keystore
+accounts/rsakey
+cmd
+cmd/gcchain
+core
+protocols/gcc
+protocols/gcc/fetcher
+protocols/gcc/downloader
+api/rpc
+api/gcclient
+contracts/dpos/contracts
+
+#skip slow race test
+core/bloombits
+core/rawdb
+core/state
